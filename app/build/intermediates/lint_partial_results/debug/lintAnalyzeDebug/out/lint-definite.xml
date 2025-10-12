@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.2" type="incidents">
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Calculadora de Execução Penal&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="17"
+            column="13"
+            startOffset="555"
+            endLine="17"
+            endColumn="57"
+            endOffset="599"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Tempo Total da Pena&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="40"
+            column="17"
+            startOffset="1416"
+            endLine="40"
+            endColumn="51"
+            endOffset="1450"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Anos&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="56"
+            column="25"
+            startOffset="2049"
+            endLine="56"
+            endColumn="44"
+            endOffset="2068"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Meses&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="65"
+            column="25"
+            startOffset="2485"
+            endLine="65"
+            endColumn="45"
+            endOffset="2505"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Dias&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="74"
+            column="25"
+            startOffset="2922"
+            endLine="74"
+            endColumn="44"
+            endOffset="2941"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="82"
+            column="22"
+            startOffset="3219"
+            endLine="82"
+            endColumn="30"
+            endOffset="3227"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;2&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="88"
+            column="25"
+            startOffset="3514"
+            endLine="88"
+            endColumn="41"
+            endOffset="3530"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="91"
+            column="22"
+            startOffset="3650"
+            endLine="91"
+            endColumn="30"
+            endOffset="3658"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;0&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="97"
+            column="25"
+            startOffset="3946"
+            endLine="97"
+            endColumn="41"
+            endOffset="3962"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="100"
+            column="22"
+            startOffset="4082"
+            endLine="100"
+            endColumn="30"
+            endOffset="4090"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;0&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="106"
+            column="25"
+            startOffset="4377"
+            endLine="106"
+            endColumn="41"
+            endOffset="4393"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Reincidente&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="131"
+            column="17"
+            startOffset="5297"
+            endLine="131"
+            endColumn="43"
+            endOffset="5323"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Violência ou Grave Ameaça&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="138"
+            column="17"
+            startOffset="5565"
+            endLine="138"
+            endColumn="57"
+            endOffset="5605"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Data de Início da Pena&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="145"
+            column="17"
+            startOffset="5836"
+            endLine="145"
+            endColumn="54"
+            endOffset="5873"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="150"
+            column="14"
+            startOffset="6030"
+            endLine="150"
+            endColumn="22"
+            endOffset="6038"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;08/10/2025&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="155"
+            column="17"
+            startOffset="6248"
+            endLine="155"
+            endColumn="42"
+            endOffset="6273"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Remição&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="172"
+            column="17"
+            startOffset="6794"
+            endLine="172"
+            endColumn="39"
+            endOffset="6816"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Dias Trabalhados&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="187"
+            column="25"
+            startOffset="7374"
+            endLine="187"
+            endColumn="56"
+            endOffset="7405"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="195"
+            column="22"
+            startOffset="7683"
+            endLine="195"
+            endColumn="30"
+            endOffset="7691"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;0&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="200"
+            column="25"
+            startOffset="7948"
+            endLine="200"
+            endColumn="41"
+            endOffset="7964"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Horas de Estudo&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="209"
+            column="17"
+            startOffset="8262"
+            endLine="209"
+            endColumn="47"
+            endOffset="8292"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="214"
+            column="14"
+            startOffset="8449"
+            endLine="214"
+            endColumn="22"
+            endOffset="8457"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;0&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="219"
+            column="17"
+            startOffset="8670"
+            endLine="219"
+            endColumn="33"
+            endOffset="8686"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Calcular&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="228"
+            column="13"
+            startOffset="8915"
+            endLine="228"
+            endColumn="36"
+            endOffset="8938"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Progressões e Benefícios&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="249"
+            column="17"
+            startOffset="9669"
+            endLine="249"
+            endColumn="56"
+            endOffset="9708"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive icon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
+            line="2"
+            column="1"
+            startOffset="40"
+            endLine="5"
+            endColumn="17"
+            endOffset="262"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive roundIcon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
+            line="2"
+            column="1"
+            startOffset="40"
+            endLine="5"
+            endColumn="17"
+            endOffset="262"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/calculadoraexecucaopenal/MainActivity.kt"
+            line="171"
+            column="21"
+            startOffset="6332"
+            endLine="171"
+            endColumn="45"
+            endOffset="6356"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 36"
+            oldString="34"
+            replacement="36"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="13"
+            column="9"
+            startOffset="273"
+            endLine="13"
+            endColumn="21"
+            endOffset="285"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for google-material"
+            robot="true">
+            <fix-replace
+                description="Replace with materialVersion = &quot;1.11.0&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="materialVersion = &quot;1.11.0&quot;&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/Downloads/a/calculadoraexecucaopenal/gradle/libs.versions.toml"
+                    startOffset="208"
+                    endOffset="208"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with google-material = { module = &quot;com.google.android.material:material&quot;, version.ref = &quot;materialVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="google-material = { module = &quot;com.google.android.material:material&quot;, version.ref = &quot;materialVersion&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/Downloads/a/calculadoraexecucaopenal/gradle/libs.versions.toml"
+                    startOffset="313"
+                    endOffset="313"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.google.material"
+                robot="true"
+                replacement="libs.google.material"
+                priority="0">
+                <range
+                    file="${:app*projectDir}/build.gradle"
+                    startOffset="643"
+                    endOffset="688"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="35"
+            column="20"
+            startOffset="643"
+            endLine="35"
+            endColumn="65"
+            endOffset="688"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for appcompat"
+            robot="true">
+            <fix-replace
+                description="Replace with appcompatVersion = &quot;1.7.0&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="appcompatVersion = &quot;1.7.0&quot;&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/Downloads/a/calculadoraexecucaopenal/gradle/libs.versions.toml"
+                    startOffset="26"
+                    endOffset="26"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with appcompat = { module = &quot;androidx.appcompat:appcompat&quot;, version.ref = &quot;appcompatVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="appcompat = { module = &quot;androidx.appcompat:appcompat&quot;, version.ref = &quot;appcompatVersion&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/Downloads/a/calculadoraexecucaopenal/gradle/libs.versions.toml"
+                    startOffset="313"
+                    endOffset="313"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.appcompat"
+                robot="true"
+                replacement="libs.appcompat"
+                priority="0">
+                <range
+                    file="${:app*projectDir}/build.gradle"
+                    startOffset="708"
+                    endOffset="744"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="36"
+            column="20"
+            startOffset="708"
+            endLine="36"
+            endColumn="56"
+            endOffset="744"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.17.0">
+        <fix-replace
+            description="Change to 1.17.0"
+            family="Update versions"
+            oldString="1.10.1"
+            replacement="1.17.0"
+            priority="0"/>
+        <location
+            file="$HOME/Downloads/a/calculadoraexecucaopenal/gradle/libs.versions.toml"
+            line="4"
+            column="11"
+            startOffset="54"
+            endLine="4"
+            endColumn="19"
+            endOffset="62"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0">
+        <fix-replace
+            description="Change to 1.3.0"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.3.0"
+            priority="0"/>
+        <location
+            file="$HOME/Downloads/a/calculadoraexecucaopenal/gradle/libs.versions.toml"
+            line="6"
+            column="16"
+            startOffset="95"
+            endLine="6"
+            endColumn="23"
+            endOffset="102"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0">
+        <fix-replace
+            description="Change to 3.7.0"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.7.0"
+            priority="0"/>
+        <location
+            file="$HOME/Downloads/a/calculadoraexecucaopenal/gradle/libs.versions.toml"
+            line="7"
+            column="16"
+            startOffset="118"
+            endLine="7"
+            endColumn="23"
+            endOffset="125"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.6.1 is available: 2.9.4">
+        <fix-replace
+            description="Change to 2.9.4"
+            family="Update versions"
+            oldString="2.6.1"
+            replacement="2.9.4"
+            priority="0"/>
+        <location
+            file="$HOME/Downloads/a/calculadoraexecucaopenal/gradle/libs.versions.toml"
+            line="8"
+            column="23"
+            startOffset="148"
+            endLine="8"
+            endColumn="30"
+            endOffset="155"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-compose than 1.8.0 is available: 1.11.0">
+        <fix-replace
+            description="Change to 1.11.0"
+            family="Update versions"
+            oldString="1.8.0"
+            replacement="1.11.0"
+            priority="0"/>
+        <location
+            file="$HOME/Downloads/a/calculadoraexecucaopenal/gradle/libs.versions.toml"
+            line="9"
+            column="19"
+            startOffset="174"
+            endLine="9"
+            endColumn="26"
+            endOffset="181"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose:compose-bom than 2024.09.00 is available: 2025.10.00">
+        <fix-replace
+            description="Change to 2025.10.00"
+            family="Update versions"
+            oldString="2024.09.00"
+            replacement="2025.10.00"
+            priority="0"/>
+        <location
+            file="$HOME/Downloads/a/calculadoraexecucaopenal/gradle/libs.versions.toml"
+            line="10"
+            column="14"
+            startOffset="195"
+            endLine="10"
+            endColumn="26"
+            endOffset="207"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.13.0">
+        <fix-replace
+            description="Change to 1.13.0"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.13.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="35"
+            column="20"
+            startOffset="643"
+            endLine="35"
+            endColumn="65"
+            endOffset="688"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.7.0"
+            replacement="1.7.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="36"
+            column="20"
+            startOffset="708"
+            endLine="36"
+            endColumn="56"
+            endOffset="744"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#f5f7fa` with a theme that also paints a background (inferred theme is `@style/Theme.CalculadoraExecucaoPenal`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="6"
+            column="5"
+            startOffset="222"
+            endLine="6"
+            endColumn="33"
+            endOffset="250"/>
+    </incident>
+
+</incidents>

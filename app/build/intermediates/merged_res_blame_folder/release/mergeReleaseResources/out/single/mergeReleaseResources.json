@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.calculadoraexecucaopenal.app-release-31:/drawable_logo.webp.flat",
+        "source": "com.example.calculadoraexecucaopenal.app-main-32:/drawable/logo.webp"
+    },
+    {
         "merged": "com.example.calculadoraexecucaopenal.app-release-31:/drawable_ic_launcher_foreground.xml.flat",
         "source": "com.example.calculadoraexecucaopenal.app-main-32:/drawable/ic_launcher_foreground.xml"
     },

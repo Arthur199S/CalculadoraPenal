@@ -4,15 +4,29 @@
     <incident
         id="HardcodedText"
         severity="warning"
+        message="Hardcoded string &quot;Logo do Aplicativo&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="19"
+            column="9"
+            startOffset="674"
+            endLine="19"
+            endColumn="56"
+            endOffset="721"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
         message="Hardcoded string &quot;Calculadora de Execução Penal&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="17"
+            line="24"
             column="13"
-            startOffset="571"
-            endLine="17"
+            startOffset="884"
+            endLine="24"
             endColumn="57"
-            endOffset="615"/>
+            endOffset="928"/>
     </incident>
 
     <incident
@@ -21,12 +35,12 @@
         message="Hardcoded string &quot;Tempo Total da Pena&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="40"
+            line="47"
             column="17"
-            startOffset="1455"
-            endLine="40"
+            startOffset="1768"
+            endLine="47"
             endColumn="51"
-            endOffset="1489"/>
+            endOffset="1802"/>
     </incident>
 
     <incident
@@ -35,12 +49,12 @@
         message="Hardcoded string &quot;Anos&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="56"
+            line="63"
             column="25"
-            startOffset="2104"
-            endLine="56"
+            startOffset="2417"
+            endLine="63"
             endColumn="44"
-            endOffset="2123"/>
+            endOffset="2436"/>
     </incident>
 
     <incident
@@ -49,12 +63,12 @@
         message="Hardcoded string &quot;Meses&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="65"
+            line="72"
             column="25"
-            startOffset="2549"
-            endLine="65"
+            startOffset="2862"
+            endLine="72"
             endColumn="45"
-            endOffset="2569"/>
+            endOffset="2882"/>
     </incident>
 
     <incident
@@ -63,12 +77,12 @@
         message="Hardcoded string &quot;Dias&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="74"
+            line="81"
             column="25"
-            startOffset="2995"
-            endLine="74"
+            startOffset="3308"
+            endLine="81"
             endColumn="44"
-            endOffset="3014"/>
+            endOffset="3327"/>
     </incident>
 
     <incident
@@ -91,12 +105,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="82"
+            line="89"
             column="22"
-            startOffset="3300"
-            endLine="82"
+            startOffset="3613"
+            endLine="89"
             endColumn="30"
-            endOffset="3308"/>
+            endOffset="3621"/>
     </incident>
 
     <incident
@@ -105,12 +119,12 @@
         message="Hardcoded string &quot;2&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="88"
+            line="95"
             column="25"
-            startOffset="3601"
-            endLine="88"
+            startOffset="3914"
+            endLine="95"
             endColumn="41"
-            endOffset="3617"/>
+            endOffset="3930"/>
     </incident>
 
     <incident
@@ -133,12 +147,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="91"
+            line="98"
             column="22"
-            startOffset="3740"
-            endLine="91"
+            startOffset="4053"
+            endLine="98"
             endColumn="30"
-            endOffset="3748"/>
+            endOffset="4061"/>
     </incident>
 
     <incident
@@ -147,12 +161,12 @@
         message="Hardcoded string &quot;0&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="97"
+            line="104"
             column="25"
-            startOffset="4042"
-            endLine="97"
+            startOffset="4355"
+            endLine="104"
             endColumn="41"
-            endOffset="4058"/>
+            endOffset="4371"/>
     </incident>
 
     <incident
@@ -175,12 +189,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="100"
+            line="107"
             column="22"
-            startOffset="4181"
-            endLine="100"
+            startOffset="4494"
+            endLine="107"
             endColumn="30"
-            endOffset="4189"/>
+            endOffset="4502"/>
     </incident>
 
     <incident
@@ -189,12 +203,12 @@
         message="Hardcoded string &quot;0&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="106"
+            line="113"
             column="25"
-            startOffset="4482"
-            endLine="106"
+            startOffset="4795"
+            endLine="113"
             endColumn="41"
-            endOffset="4498"/>
+            endOffset="4811"/>
     </incident>
 
     <incident
@@ -203,12 +217,12 @@
         message="Hardcoded string &quot;Reincidente&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="131"
+            line="138"
             column="17"
-            startOffset="5427"
-            endLine="131"
+            startOffset="5740"
+            endLine="138"
             endColumn="43"
-            endOffset="5453"/>
+            endOffset="5766"/>
     </incident>
 
     <incident
@@ -217,12 +231,12 @@
         message="Hardcoded string &quot;Violência ou Grave Ameaça&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="138"
+            line="145"
             column="17"
-            startOffset="5702"
-            endLine="138"
+            startOffset="6015"
+            endLine="145"
             endColumn="57"
-            endOffset="5742"/>
+            endOffset="6055"/>
     </incident>
 
     <incident
@@ -231,12 +245,12 @@
         message="Hardcoded string &quot;Data de Início da Pena&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="145"
+            line="152"
             column="17"
-            startOffset="5980"
-            endLine="145"
+            startOffset="6293"
+            endLine="152"
             endColumn="54"
-            endOffset="6017"/>
+            endOffset="6330"/>
     </incident>
 
     <incident
@@ -259,12 +273,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="150"
+            line="157"
             column="14"
-            startOffset="6179"
-            endLine="150"
+            startOffset="6492"
+            endLine="157"
             endColumn="22"
-            endOffset="6187"/>
+            endOffset="6500"/>
     </incident>
 
     <incident
@@ -273,12 +287,12 @@
         message="Hardcoded string &quot;08/10/2025&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="155"
+            line="162"
             column="17"
-            startOffset="6402"
-            endLine="155"
+            startOffset="6715"
+            endLine="162"
             endColumn="42"
-            endOffset="6427"/>
+            endOffset="6740"/>
     </incident>
 
     <incident
@@ -287,12 +301,12 @@
         message="Hardcoded string &quot;Remição&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="172"
+            line="179"
             column="17"
-            startOffset="6965"
-            endLine="172"
+            startOffset="7278"
+            endLine="179"
             endColumn="39"
-            endOffset="6987"/>
+            endOffset="7300"/>
     </incident>
 
     <incident
@@ -301,12 +315,12 @@
         message="Hardcoded string &quot;Dias Trabalhados&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="187"
+            line="194"
             column="25"
-            startOffset="7560"
-            endLine="187"
+            startOffset="7873"
+            endLine="194"
             endColumn="56"
-            endOffset="7591"/>
+            endOffset="7904"/>
     </incident>
 
     <incident
@@ -329,12 +343,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="195"
+            line="202"
             column="22"
-            startOffset="7877"
-            endLine="195"
+            startOffset="8190"
+            endLine="202"
             endColumn="30"
-            endOffset="7885"/>
+            endOffset="8198"/>
     </incident>
 
     <incident
@@ -343,12 +357,12 @@
         message="Hardcoded string &quot;0&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="200"
+            line="207"
             column="25"
-            startOffset="8147"
-            endLine="200"
+            startOffset="8460"
+            endLine="207"
             endColumn="41"
-            endOffset="8163"/>
+            endOffset="8476"/>
     </incident>
 
     <incident
@@ -357,12 +371,12 @@
         message="Hardcoded string &quot;Horas de Estudo&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="209"
+            line="216"
             column="17"
-            startOffset="8470"
-            endLine="209"
+            startOffset="8783"
+            endLine="216"
             endColumn="47"
-            endOffset="8500"/>
+            endOffset="8813"/>
     </incident>
 
     <incident
@@ -385,12 +399,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="214"
+            line="221"
             column="14"
-            startOffset="8662"
-            endLine="214"
+            startOffset="8975"
+            endLine="221"
             endColumn="22"
-            endOffset="8670"/>
+            endOffset="8983"/>
     </incident>
 
     <incident
@@ -399,12 +413,12 @@
         message="Hardcoded string &quot;0&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="219"
+            line="226"
             column="17"
-            startOffset="8888"
-            endLine="219"
+            startOffset="9201"
+            endLine="226"
             endColumn="33"
-            endOffset="8904"/>
+            endOffset="9217"/>
     </incident>
 
     <incident
@@ -413,12 +427,12 @@
         message="Hardcoded string &quot;Calcular&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="228"
+            line="235"
             column="13"
-            startOffset="9142"
-            endLine="228"
+            startOffset="9455"
+            endLine="235"
             endColumn="36"
-            endOffset="9165"/>
+            endOffset="9478"/>
     </incident>
 
     <incident
@@ -427,12 +441,12 @@
         message="Hardcoded string &quot;Progressões e Benefícios&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="249"
+            line="256"
             column="17"
-            startOffset="9917"
-            endLine="249"
+            startOffset="10230"
+            endLine="256"
             endColumn="56"
-            endOffset="9956"/>
+            endOffset="10269"/>
     </incident>
 
     <incident
@@ -482,34 +496,34 @@
         severity="warning"
         message="Use version catalog instead">
         <fix-composite
-            description="Replace with new library catalog declaration for material"
+            description="Replace with new library catalog declaration for com-google-android-material-material4"
             robot="true">
             <fix-replace
-                description="Replace with material = &quot;1.11.0&quot;..."
+                description="Replace with comGoogleAndroidMaterialMaterial2 = &quot;1.11.0&quot;..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="material = &quot;1.11.0&quot;&#xA;"
+                replacement="comGoogleAndroidMaterialMaterial2 = &quot;1.11.0&quot;&#xA;"
                 priority="0">
                 <range
                     file="$HOME/Downloads/CalculadoraPenal/gradle/libs.versions.toml"
-                    startOffset="218"
-                    endOffset="218"/>
+                    startOffset="28"
+                    endOffset="28"/>
             </fix-replace>
             <fix-replace
-                description="Replace with material = { module = &quot;com.google.android.material:material&quot;, version.ref = &quot;material&quot; }..."
+                description="Replace with com-google-android-material-material4 = { module = &quot;com.google.android.material:material&quot;, version.ref = &quot;comGoogleAndroidMaterialMaterial2&quot; }..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="material = { module = &quot;com.google.android.material:material&quot;, version.ref = &quot;material&quot; }&#xA;"
+                replacement="com-google-android-material-material4 = { module = &quot;com.google.android.material:material&quot;, version.ref = &quot;comGoogleAndroidMaterialMaterial2&quot; }&#xA;"
                 priority="0">
                 <range
                     file="$HOME/Downloads/CalculadoraPenal/gradle/libs.versions.toml"
-                    startOffset="1741"
-                    endOffset="1741"/>
+                    startOffset="326"
+                    endOffset="326"/>
             </fix-replace>
             <fix-replace
-                description="Replace with libs.material"
+                description="Replace with libs.com.google.android.material.material4"
                 robot="true"
-                replacement="libs.material"
+                replacement="libs.com.google.android.material.material4"
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle"
@@ -532,13 +546,13 @@
         severity="warning"
         message="Use version catalog instead">
         <fix-composite
-            description="Replace with new library catalog declaration for androidx-appcompat"
+            description="Replace with new library catalog declaration for androidx-appcompat-appcompat4"
             robot="true">
             <fix-replace
-                description="Replace with appcompat = &quot;1.7.0&quot;..."
+                description="Replace with androidxAppcompatAppcompat2 = &quot;1.7.0&quot;..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="appcompat = &quot;1.7.0&quot;&#xA;"
+                replacement="androidxAppcompatAppcompat2 = &quot;1.7.0&quot;&#xA;"
                 priority="0">
                 <range
                     file="$HOME/Downloads/CalculadoraPenal/gradle/libs.versions.toml"
@@ -546,10 +560,10 @@
                     endOffset="28"/>
             </fix-replace>
             <fix-replace
-                description="Replace with androidx-appcompat = { module = &quot;androidx.appcompat:appcompat&quot;, version.ref = &quot;appcompat&quot; }..."
+                description="Replace with androidx-appcompat-appcompat4 = { module = &quot;androidx.appcompat:appcompat&quot;, version.ref = &quot;androidxAppcompatAppcompat2&quot; }..."
                 robot="true"
                 oldString="_lint_insert_begin_"
-                replacement="androidx-appcompat = { module = &quot;androidx.appcompat:appcompat&quot;, version.ref = &quot;appcompat&quot; }&#xA;"
+                replacement="androidx-appcompat-appcompat4 = { module = &quot;androidx.appcompat:appcompat&quot;, version.ref = &quot;androidxAppcompatAppcompat2&quot; }&#xA;"
                 priority="0">
                 <range
                     file="$HOME/Downloads/CalculadoraPenal/gradle/libs.versions.toml"
@@ -557,9 +571,9 @@
                     endOffset="233"/>
             </fix-replace>
             <fix-replace
-                description="Replace with libs.androidx.appcompat"
+                description="Replace with libs.androidx.appcompat.appcompat4"
                 robot="true"
-                replacement="libs.androidx.appcompat"
+                replacement="libs.androidx.appcompat.appcompat4"
                 priority="0">
                 <range
                     file="${:app*projectDir}/build.gradle"
@@ -749,6 +763,14 @@
             endLine="6"
             endColumn="33"
             endOffset="255"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/logo.webp` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/logo.webp"/>
     </incident>
 
 </incidents>

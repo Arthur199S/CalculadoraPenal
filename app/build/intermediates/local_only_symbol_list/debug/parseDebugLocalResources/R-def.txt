@@ -10,6 +10,7 @@ color teal_200
 color teal_700
 color white
 drawable ic_launcher_foreground
+drawable logo
 id btnCalcular
 id cbReincidente
 id cbViolencia
@@ -19,6 +20,7 @@ id etDias
 id etDiasTrabalhados
 id etHorasEstudo
 id etMeses
+id imgLogo
 id llResultados
 id spinnerRegime
 id spinnerTipoCrime

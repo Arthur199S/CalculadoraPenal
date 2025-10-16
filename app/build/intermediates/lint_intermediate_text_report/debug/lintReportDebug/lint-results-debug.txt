@@ -170,22 +170,33 @@ C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\mipmap-anydpi-v2
    application iconwill not show if your monochrome attribute is not also
    specified in android:roundIcon.
 
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:82: Warning: Missing autofillHints attribute [Autofill]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\drawable\logo.webp: Warning: Found bitmap drawable res/drawable/logo.webp in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:89: Warning: Missing autofillHints attribute [Autofill]
                     <EditText
                      ~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:91: Warning: Missing autofillHints attribute [Autofill]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:98: Warning: Missing autofillHints attribute [Autofill]
                     <EditText
                      ~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:100: Warning: Missing autofillHints attribute [Autofill]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:107: Warning: Missing autofillHints attribute [Autofill]
                     <EditText
                      ~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:150: Warning: Missing autofillHints attribute [Autofill]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:157: Warning: Missing autofillHints attribute [Autofill]
             <EditText
              ~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:195: Warning: Missing autofillHints attribute [Autofill]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:202: Warning: Missing autofillHints attribute [Autofill]
                     <EditText
                      ~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:214: Warning: Missing autofillHints attribute [Autofill]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:221: Warning: Missing autofillHints attribute [Autofill]
             <EditText
              ~~~~~~~~
 
@@ -222,22 +233,22 @@ C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\build.gradle:36: Warning: Use
    declarations outside of the TOML file and suggests moving them (and in the
    IDE, provides a quickfix to performing the operation automatically).
 
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:82: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:89: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
                     <EditText
                      ~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:91: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:98: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
                     <EditText
                      ~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:100: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:107: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
                     <EditText
                      ~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:150: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:157: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
             <EditText
              ~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:195: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:202: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
                     <EditText
                      ~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:214: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:221: Warning: Missing accessibility label: provide either a view with an android:labelFor that references this view or provide an android:hint [LabelFor]
             <EditText
              ~~~~~~~~
 
@@ -269,61 +280,64 @@ C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\java\com\example\cal
 
    https://developer.android.com/guide/topics/resources/localization.html
 
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:17: Warning: Hardcoded string "Calculadora de Execução Penal", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:19: Warning: Hardcoded string "Logo do Aplicativo", should use @string resource [HardcodedText]
+        android:contentDescription="Logo do Aplicativo" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:24: Warning: Hardcoded string "Calculadora de Execução Penal", should use @string resource [HardcodedText]
             android:text="Calculadora de Execução Penal"
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:40: Warning: Hardcoded string "Tempo Total da Pena", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:47: Warning: Hardcoded string "Tempo Total da Pena", should use @string resource [HardcodedText]
                 android:text="Tempo Total da Pena"
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:56: Warning: Hardcoded string "Anos", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:63: Warning: Hardcoded string "Anos", should use @string resource [HardcodedText]
                         android:text="Anos"
                         ~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:65: Warning: Hardcoded string "Meses", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:72: Warning: Hardcoded string "Meses", should use @string resource [HardcodedText]
                         android:text="Meses"
                         ~~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:74: Warning: Hardcoded string "Dias", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:81: Warning: Hardcoded string "Dias", should use @string resource [HardcodedText]
                         android:text="Dias"
                         ~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:88: Warning: Hardcoded string "2", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:95: Warning: Hardcoded string "2", should use @string resource [HardcodedText]
                         android:text="2"
                         ~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:97: Warning: Hardcoded string "0", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:104: Warning: Hardcoded string "0", should use @string resource [HardcodedText]
                         android:text="0"
                         ~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:106: Warning: Hardcoded string "0", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:113: Warning: Hardcoded string "0", should use @string resource [HardcodedText]
                         android:text="0"
                         ~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:131: Warning: Hardcoded string "Reincidente", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:138: Warning: Hardcoded string "Reincidente", should use @string resource [HardcodedText]
                 android:text="Reincidente"
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:138: Warning: Hardcoded string "Violência ou Grave Ameaça", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:145: Warning: Hardcoded string "Violência ou Grave Ameaça", should use @string resource [HardcodedText]
                 android:text="Violência ou Grave Ameaça"
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:145: Warning: Hardcoded string "Data de Início da Pena", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:152: Warning: Hardcoded string "Data de Início da Pena", should use @string resource [HardcodedText]
                 android:text="Data de Início da Pena"
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:155: Warning: Hardcoded string "08/10/2025", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:162: Warning: Hardcoded string "08/10/2025", should use @string resource [HardcodedText]
                 android:text="08/10/2025" />
                 ~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:172: Warning: Hardcoded string "Remição", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:179: Warning: Hardcoded string "Remição", should use @string resource [HardcodedText]
                 android:text="Remição"
                 ~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:187: Warning: Hardcoded string "Dias Trabalhados", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:194: Warning: Hardcoded string "Dias Trabalhados", should use @string resource [HardcodedText]
                         android:text="Dias Trabalhados"
                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:200: Warning: Hardcoded string "0", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:207: Warning: Hardcoded string "0", should use @string resource [HardcodedText]
                         android:text="0"
                         ~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:209: Warning: Hardcoded string "Horas de Estudo", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:216: Warning: Hardcoded string "Horas de Estudo", should use @string resource [HardcodedText]
                 android:text="Horas de Estudo"
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:219: Warning: Hardcoded string "0", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:226: Warning: Hardcoded string "0", should use @string resource [HardcodedText]
                 android:text="0" />
                 ~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:228: Warning: Hardcoded string "Calcular", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:235: Warning: Hardcoded string "Calcular", should use @string resource [HardcodedText]
             android:text="Calcular"
             ~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:249: Warning: Hardcoded string "Progressões e Benefícios", should use @string resource [HardcodedText]
+C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml:256: Warning: Hardcoded string "Progressões e Benefícios", should use @string resource [HardcodedText]
                 android:text="Progressões e Benefícios"
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -341,4 +355,4 @@ C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_
    There are quickfixes to automatically extract this hardcoded string into a
    resource lookup.
 
-0 errors, 72 warnings
+0 errors, 74 warnings

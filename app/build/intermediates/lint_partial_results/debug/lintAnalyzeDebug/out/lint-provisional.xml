@@ -33,12 +33,12 @@
         message="">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="82"
+            line="89"
             column="22"
-            startOffset="3300"
-            endLine="82"
+            startOffset="3613"
+            endLine="89"
             endColumn="30"
-            endOffset="3308"/>
+            endOffset="3621"/>
         <map>
             <entry
                 name="hint"
@@ -55,12 +55,12 @@
         message="">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="91"
+            line="98"
             column="22"
-            startOffset="3740"
-            endLine="91"
+            startOffset="4053"
+            endLine="98"
             endColumn="30"
-            endOffset="3748"/>
+            endOffset="4061"/>
         <map>
             <entry
                 name="hint"
@@ -77,12 +77,12 @@
         message="">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="100"
+            line="107"
             column="22"
-            startOffset="4181"
-            endLine="100"
+            startOffset="4494"
+            endLine="107"
             endColumn="30"
-            endOffset="4189"/>
+            endOffset="4502"/>
         <map>
             <entry
                 name="hint"
@@ -99,12 +99,12 @@
         message="">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="150"
+            line="157"
             column="14"
-            startOffset="6179"
-            endLine="150"
+            startOffset="6492"
+            endLine="157"
             endColumn="22"
-            endOffset="6187"/>
+            endOffset="6500"/>
         <map>
             <entry
                 name="hint"
@@ -121,12 +121,12 @@
         message="">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="195"
+            line="202"
             column="22"
-            startOffset="7877"
-            endLine="195"
+            startOffset="8190"
+            endLine="202"
             endColumn="30"
-            endOffset="7885"/>
+            endOffset="8198"/>
         <map>
             <entry
                 name="hint"
@@ -143,12 +143,12 @@
         message="">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="214"
+            line="221"
             column="14"
-            startOffset="8662"
-            endLine="214"
+            startOffset="8975"
+            endLine="221"
             endColumn="22"
-            endOffset="8670"/>
+            endOffset="8983"/>
         <map>
             <entry
                 name="hint"

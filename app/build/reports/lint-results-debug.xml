@@ -610,6 +610,20 @@
     </issue>
 
     <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/logo.webp` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon **really** is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="https://developer.android.com/guide/practices/screens_support.html"
+        urls="https://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\drawable\logo.webp"/>
+    </issue>
+
+    <issue
         id="Autofill"
         severity="Warning"
         message="Missing `autofillHints` attribute"
@@ -623,7 +637,7 @@
         errorLine2="                     ~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="82"
+            line="89"
             column="22"/>
     </issue>
 
@@ -641,7 +655,7 @@
         errorLine2="                     ~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="91"
+            line="98"
             column="22"/>
     </issue>
 
@@ -659,7 +673,7 @@
         errorLine2="                     ~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="100"
+            line="107"
             column="22"/>
     </issue>
 
@@ -677,7 +691,7 @@
         errorLine2="             ~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="150"
+            line="157"
             column="14"/>
     </issue>
 
@@ -695,7 +709,7 @@
         errorLine2="                     ~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="195"
+            line="202"
             column="22"/>
     </issue>
 
@@ -713,7 +727,7 @@
         errorLine2="             ~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="214"
+            line="221"
             column="14"/>
     </issue>
 
@@ -761,7 +775,7 @@
         errorLine2="                     ~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="82"
+            line="89"
             column="22"/>
     </issue>
 
@@ -777,7 +791,7 @@
         errorLine2="                     ~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="91"
+            line="98"
             column="22"/>
     </issue>
 
@@ -793,7 +807,7 @@
         errorLine2="                     ~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="100"
+            line="107"
             column="22"/>
     </issue>
 
@@ -809,7 +823,7 @@
         errorLine2="             ~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="150"
+            line="157"
             column="14"/>
     </issue>
 
@@ -825,7 +839,7 @@
         errorLine2="                     ~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="195"
+            line="202"
             column="22"/>
     </issue>
 
@@ -841,7 +855,7 @@
         errorLine2="             ~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="214"
+            line="221"
             column="14"/>
     </issue>
 
@@ -866,6 +880,22 @@
     <issue
         id="HardcodedText"
         severity="Warning"
+        message="Hardcoded string &quot;Logo do Aplicativo&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="        android:contentDescription=&quot;Logo do Aplicativo&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
+            line="19"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
         message="Hardcoded string &quot;Calculadora de Execução Penal&quot;, should use `@string` resource"
         category="Internationalization"
         priority="5"
@@ -875,7 +905,7 @@
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="17"
+            line="24"
             column="13"/>
     </issue>
 
@@ -891,7 +921,7 @@
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="40"
+            line="47"
             column="17"/>
     </issue>
 
@@ -907,7 +937,7 @@
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="56"
+            line="63"
             column="25"/>
     </issue>
 
@@ -923,7 +953,7 @@
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="65"
+            line="72"
             column="25"/>
     </issue>
 
@@ -939,7 +969,7 @@
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="74"
+            line="81"
             column="25"/>
     </issue>
 
@@ -955,7 +985,7 @@
         errorLine2="                        ~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="88"
+            line="95"
             column="25"/>
     </issue>
 
@@ -971,7 +1001,7 @@
         errorLine2="                        ~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="97"
+            line="104"
             column="25"/>
     </issue>
 
@@ -987,7 +1017,7 @@
         errorLine2="                        ~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="106"
+            line="113"
             column="25"/>
     </issue>
 
@@ -1003,7 +1033,7 @@
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="131"
+            line="138"
             column="17"/>
     </issue>
 
@@ -1019,7 +1049,7 @@
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="138"
+            line="145"
             column="17"/>
     </issue>
 
@@ -1035,7 +1065,7 @@
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="145"
+            line="152"
             column="17"/>
     </issue>
 
@@ -1051,7 +1081,7 @@
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="155"
+            line="162"
             column="17"/>
     </issue>
 
@@ -1067,7 +1097,7 @@
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="172"
+            line="179"
             column="17"/>
     </issue>
 
@@ -1083,7 +1113,7 @@
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="187"
+            line="194"
             column="25"/>
     </issue>
 
@@ -1099,7 +1129,7 @@
         errorLine2="                        ~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="200"
+            line="207"
             column="25"/>
     </issue>
 
@@ -1115,7 +1145,7 @@
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="209"
+            line="216"
             column="17"/>
     </issue>
 
@@ -1131,7 +1161,7 @@
         errorLine2="                ~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="219"
+            line="226"
             column="17"/>
     </issue>
 
@@ -1147,7 +1177,7 @@
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="228"
+            line="235"
             column="13"/>
     </issue>
 
@@ -1163,7 +1193,7 @@
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app\src\main\res\layout\activity_main.xml"
-            line="249"
+            line="256"
             column="17"/>
     </issue>
 

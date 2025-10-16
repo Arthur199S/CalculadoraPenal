@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="primary_color">#6200EE</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="secondary_color">#03DAC5</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Calculadora de Execução Penal</string>
+    <string name="calcular">Calcular</string>
+    <string name="data_inicio_pena">Data de Início da Pena</string>
+    <string name="dias_trabalhados">Dias Trabalhados</string>
+    <string name="horas_estudo">Horas de Estudo</string>
+    <string name="progressoes_beneficios">Progressões e Benefícios</string>
+    <string name="regime_inicial">Regime Inicial</string>
+    <string name="reincidente">Reincidente</string>
+    <string name="remicao">Remição</string>
+    <string name="tempo_total_pena">Tempo Total da Pena</string>
+    <string name="tipo_crime">Tipo do Crime</string>
+    <string name="violencia_grave_ameaca">Violência ou Grave Ameaça</string>
+    <style name="Theme.CalculadoraExecucaoPenal" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant">@color/secondary_color</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+</resources>

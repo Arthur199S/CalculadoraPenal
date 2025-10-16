@@ -6,7 +6,7 @@
     mergedManifest="build\intermediates\merged_manifest\release\processReleaseMainManifest\AndroidManifest.xml"
     proguardFiles="build\intermediates\default_proguard_files\global\proguard-android.txt-8.5.2"
     partialResultsDir="build\intermediates\lint_vital_partial_results\release\lintVitalAnalyzeRelease\out"
-    desugaredMethodsFiles="C:\Users\arthu\.gradle\caches\8.10.2\transforms\cbcde61649966a919d81a5f327652e6d\transformed\D8BackportedDesugaredMethods.txt">
+    desugaredMethodsFiles="C:\Users\23.00877-6\.gradle\caches\8.10.2\transforms\cbcde61649966a919d81a5f327652e6d\transformed\D8BackportedDesugaredMethods.txt">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -26,6 +26,6 @@
       applicationId="com.example.calculadoraexecucaopenal"
       generatedSourceFolders="build\generated\ap_generated_sources\release\out"
       generatedResourceFolders="build\generated\res\resValues\release"
-      desugaredMethodsFiles="C:\Users\arthu\.gradle\caches\8.10.2\transforms\cbcde61649966a919d81a5f327652e6d\transformed\D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="C:\Users\23.00877-6\.gradle\caches\8.10.2\transforms\cbcde61649966a919d81a5f327652e6d\transformed\D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

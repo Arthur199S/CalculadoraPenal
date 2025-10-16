@@ -35,10 +35,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="82"
             column="22"
-            startOffset="3219"
+            startOffset="3300"
             endLine="82"
             endColumn="30"
-            endOffset="3227"/>
+            endOffset="3308"/>
         <map>
             <entry
                 name="hint"
@@ -57,10 +57,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="91"
             column="22"
-            startOffset="3650"
+            startOffset="3740"
             endLine="91"
             endColumn="30"
-            endOffset="3658"/>
+            endOffset="3748"/>
         <map>
             <entry
                 name="hint"
@@ -79,10 +79,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="100"
             column="22"
-            startOffset="4082"
+            startOffset="4181"
             endLine="100"
             endColumn="30"
-            endOffset="4090"/>
+            endOffset="4189"/>
         <map>
             <entry
                 name="hint"
@@ -101,10 +101,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="150"
             column="14"
-            startOffset="6030"
+            startOffset="6179"
             endLine="150"
             endColumn="22"
-            endOffset="6038"/>
+            endOffset="6187"/>
         <map>
             <entry
                 name="hint"
@@ -123,10 +123,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="195"
             column="22"
-            startOffset="7683"
+            startOffset="7877"
             endLine="195"
             endColumn="30"
-            endOffset="7691"/>
+            endOffset="7885"/>
         <map>
             <entry
                 name="hint"
@@ -145,10 +145,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="214"
             column="14"
-            startOffset="8449"
+            startOffset="8662"
             endLine="214"
             endColumn="22"
-            endOffset="8457"/>
+            endOffset="8670"/>
         <map>
             <entry
                 name="hint"

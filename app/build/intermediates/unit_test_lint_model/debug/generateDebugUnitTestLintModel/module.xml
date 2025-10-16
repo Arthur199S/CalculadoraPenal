@@ -1,12 +1,12 @@
 <lint-module
     format="1"
-    dir="C:\Users\arthu\Downloads\a\calculadoraexecucaopenal\app"
+    dir="C:\Users\23.00877-6\Downloads\CalculadoraPenal\app"
     name=":app"
     type="APP"
     maven="calculadoraexecucaopenal:app:unspecified"
     agpVersion="8.5.2"
     buildFolder="build"
-    bootClassPath="C:\Users\arthu\AppData\Local\Android\Sdk\platforms\android-34\android.jar;C:\Users\arthu\AppData\Local\Android\Sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    bootClassPath="C:\Android\SDK\platforms\android-34\android.jar;C:\Android\SDK\build-tools\34.0.0\core-lambda-stubs.jar"
     javaSourceLevel="21"
     compileTarget="android-34"
     neverShrinking="true">

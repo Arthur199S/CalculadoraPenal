@@ -30,10 +30,16 @@ Uma aplicação Android desenvolvida em **Kotlin** com interface em **XML** que 
 ## ⚙️ Funcionalidades
 
 - Cálculo de pena baseado em:
+  - Regime Inicial
   - Tipo de crime
-  - Agravantes e atenuantes
-  - Recidiva ou primariedade
-  - 
+  - Reincidente (opcional)
+  - Violência ou grave ameaça (opcional)
+  - Crime com resultado morte (opcional)
+  - Data de início da pena
+  - Dias trabalhados
+  - Horas de estudo
+  - Livros lidos
+  - Tempo de detração (dias)
 - Validações de entrada para evitar erros.
 - Layout responsivo e intuitivo.
 - Envio/armazenamento opcional de histórico de cálculos.
@@ -71,6 +77,16 @@ git clone https://github.com/Arthur199S/CalculadoraPenal.git
 - Suporte a temas claros e escuros (no momento força modo claro).
 
 - Notificações push para alerta de cálculo, quando pronto.
+
+---
+
+## ⚠️ Desafios e Aprendizados
+
+- Aprender um linguagem de programação nova em pouco tempo de aprendizado dessa nova linguagem.
+- Integração de XML + Kotlin (alguns idiomas acusavam erro no código, sendo que era na string o erro).
+- A equipe geralmente utiliza VSCode e IntelliJ IDEA; entretanto, foi necessário adaptar-se ao uso do Android Studio para o desenvolvimento deste projeto.
+
+Esses desafios ajudaram a equipe a melhorar a arquitetura do app e otimizar a experiência do usuário.
 
 ---
 

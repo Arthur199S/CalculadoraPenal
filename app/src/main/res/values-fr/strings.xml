@@ -1,0 +1,75 @@
+<resources>
+    <string-array name="idiomas_array">
+        <item>Portuguese (Brazil) - pt-BR</item>
+        <item>Arabic - ar</item>
+        <item>German - de</item>
+        <item>English - en</item>
+        <item>Spanish - es</item>
+        <item>French - fr</item>
+        <item>Hindi - hi</item>
+        <item>Japanese - ja</item>
+        <item>Chinese - zh</item>
+    </string-array>
+    <string name="app_name">Calculatrice Pénale - Cespedes Lourenço</string>
+    <string name="logo">Logo de l\'application</string>
+    <string name="tempopena">Durée totale de la peine</string>
+    <string name="anos">Années</string>
+    <string name="meses">Mois</string>
+    <string name="dias">Jours</string>
+    <string name="valordefault">0</string>
+    <string name="regime">Régime initial</string>
+    <string name="fechado">Fermé</string>
+    <string name="semi">Semi-ouvert</string>
+    <string name="aberto">Ouvert</string>
+    <string name="tipo">Type de crime</string>
+    <string name="comum">Commun</string>
+    <string name="hediondo">Grave / Équivalent</string>
+    <string name="reincidente">Récidiviste</string>
+    <string name="violencia">Violence ou menace grave</string>
+    <string name="inicio">Date de début de la peine</string>
+    <string name="datadefault">10/08/2025</string>
+    <string name="remicao">Réduction</string>
+    <string name="trabalho">Jours travaillés</string>
+    <string name="estudo">Heures d\'étude</string>
+    <string name="calcular">Calculer</string>
+    <string name="resultados">Résultats</string>
+    <string name="progressoes">Progressions et avantages</string>
+    <string name="change_language">Changer la langue</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="gmail">Gmail</string>
+    <string name="detracao">Temps de détention (jours)</string>
+    <string name="resultado_morte">Crime ayant causé la mort</string>
+    <string name="leitura">Livres lus</string>
+    <string name="livramento_condicional">Libération conditionnelle</string>
+    <string name="nao_aplicavel">Non applicable</string>
+    <string name="title_activity_resultados">Résultats du calcul</string>
+    <string name="nome_completo">Nom complet (Obligatoire)</string>
+    <string name="numero_whatsapp">Numéro WhatsApp (Obligatoire)</string>
+    <string name="email">E-mail (Optionnel)</string>
+    <string name="numero_processo">Numéro du procès (Optionnel)</string>
+    <string name="salvar_enviar">Enregistrer et envoyer</string>
+    <string name="falar_advogado">Je veux parler à un avocat</string>
+    <string name="campo_obrigatorio">Champ obligatoire</string>
+    <string name="voltar">Retour</string>
+    <string name="pena_error">Entrez au moins 1 jour de peine</string>
+    <string name="data_error">Date invalide. Utilisez le format JJ/MM/AAAA</string>
+    <string name="progressao_regime">Progression du régime</string>
+    <string name="termino_pena_label">Fin de la peine</string>
+    <string name="whatsapp_error">Impossible d\'ouvrir WhatsApp. Vérifiez si l\'application est installée.</string>
+    <string name="gmail_subject">Contact via l\'application Calculatrice Pénale</string>
+    <string name="email_chooser_title">Choisir l\'application de messagerie</string>
+    <string name="gmail_error">Aucune application de messagerie trouvée.</string>
+    <string name="selecione_regime_inicial">Sélectionnez le régime initial</string>
+    <string name="selecione_tipo_crime">Sélectionnez le type de crime</string>
+    <string name="resultados_salvos_enviados">Résultats enregistrés et envoyés !</string>
+    <string name="email_invalido">E-mail invalide</string>
+    <string name="processo_invalido">Numéro de procès invalide</string>
+    <string name="share_title">Compartilhar Resultados</string>
+    <string name="share_header_calculo">Resultados do Cálculo Penal</string>
+    <string name="share_header_dados">Dados do Contato</string>
+    <string name="share_label_nome">Nome</string>
+    <string name="share_label_whatsapp">WhatsApp</string>
+    <string name="share_label_email">E-mail</string>
+    <string name="share_label_processo">Nº do Processo</string>
+    <string name="whatsapp_invalido">Numéro WhatsApp invalide</string>
+</resources>

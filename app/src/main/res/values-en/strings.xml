@@ -1,0 +1,73 @@
+<resources>
+    <string-array name="idiomas_array">
+        <item>Portuguese (Brazil) - pt-BR</item>
+        <item>Arabic - ar</item>
+        <item>German - de</item>
+        <item>English - en</item>
+        <item>Spanish - es</item>
+        <item>French - fr</item>
+        <item>Hindi - hi</item>
+        <item>Japanese - ja</item>
+        <item>Chinese - zh</item>
+    </string-array>
+    <string name="app_name">Criminal Penalty Calculator - Cespedes Lourenço</string>
+    <string name="logo">App logo</string>
+    <string name="tempopena">Total sentence time</string>
+    <string name="anos">Years</string>
+    <string name="meses">Months</string>
+    <string name="dias">Days</string>
+    <string name="valordefault">0</string>
+    <string name="regime">Initial regime</string>
+    <string name="fechado">Closed</string>
+    <string name="semi">Semi-open</string>
+    <string name="aberto">Open</string>
+    <string name="tipo">Crime type</string>
+    <string name="comum">Common</string>
+    <string name="hediondo">Heinous/Equivalent</string>
+    <string name="reincidente">Recidivist</string>
+    <string name="violencia">Violence or serious threat</string>
+    <string name="inicio">Penalty start date</string>
+    <string name="datadefault">10/08/2025</string>
+    <string name="remicao">Remission</string>
+    <string name="trabalho">Days worked</string>
+    <string name="estudo">Hours of study</string>
+    <string name="calcular">Calculate</string>
+    <string name="resultados">Results</string>
+    <string name="progressoes">Progressions and benefits</string>
+    <string name="change_language">Change language</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="gmail">Gmail</string>
+    <string name="detracao">Detraction time (days)</string>
+    <string name="resultado_morte">Crime with death result</string>
+    <string name="leitura">Books read</string>
+    <string name="livramento_condicional">Parole</string>
+    <string name="nao_aplicavel">Not applicable</string>
+    <string name="title_activity_resultados">Calculation results</string>
+    <string name="nome_completo">Full name (Required)</string>
+    <string name="numero_whatsapp">WhatsApp number (Required)</string>
+    <string name="email">E-mail (Optional)</string>
+    <string name="numero_processo">Process number (Optional)</string>
+    <string name="salvar_enviar">Save and send</string>
+    <string name="falar_advogado">I want to talk to a lawyer</string>
+    <string name="campo_obrigatorio">Required field</string>
+    <string name="voltar">Back</string>
+    <string name="pena_error">Enter at least 1 day of sentence</string>
+    <string name="data_error">Invalid date. Use DD/MM/YYYY</string>
+    <string name="progressao_regime">Regime progression</string>
+    <string name="termino_pena_label">Penalty end</string>
+    <string name="whatsapp_error">Cannot open WhatsApp. Check if the app is installed.</string>
+    <string name="gmail_subject">Contact via Criminal Penalty Calculator App</string>
+    <string name="email_chooser_title">Choose email app</string>
+    <string name="gmail_error">No email app found.</string>
+    <string name="selecione_regime_inicial">Select initial regime</string>
+    <string name="selecione_tipo_crime">Select crime type</string>
+    <string name="resultados_salvos_enviados">Results saved and sent!</string>
+    <string name="share_title">Compartilhar Resultados</string>
+    <string name="share_header_calculo">Resultados do Cálculo Penal</string>
+    <string name="share_header_dados">Dados do Contato</string>
+    <string name="share_label_nome">Nome</string>
+    <string name="share_label_whatsapp">WhatsApp</string>
+    <string name="share_label_email">E-mail</string>
+    <string name="share_label_processo">Nº do Processo</string>
+    <string name="whatsapp_invalido">Invalid WhatsApp number</string>
+</resources>

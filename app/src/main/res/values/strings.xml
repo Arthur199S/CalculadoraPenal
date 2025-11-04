@@ -1,6 +1,75 @@
 <resources>
-    <string name="app_name">Calculadora de Execução Penal</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string-array name="idiomas_array">
+        <item>Portuguese (Brazil) - pt-BR</item>
+        <item>Arabic - ar</item>
+        <item>German - de</item>
+        <item>English - en</item>
+        <item>Spanish - es</item>
+        <item>French - fr</item>
+        <item>Hindi - hi</item>
+        <item>Japanese - ja</item>
+        <item>Chinese - zh</item>
+    </string-array>
+    <string name="app_name">Calculadora Penal - Cespedes Lourenço</string>
+    <string name="logo">Logo do aplicativo</string>
+    <string name="tempopena">Tempo total da pena</string>
+    <string name="anos">Anos</string>
+    <string name="meses">Meses</string>
+    <string name="dias">Dias</string>
+    <string name="valordefault">0</string>
+    <string name="regime">Regime inicial</string>
+    <string name="fechado">Fechado</string>
+    <string name="semi">Semiaberto</string>
+    <string name="aberto">Aberto</string>
+    <string name="tipo">Tipo de crime</string>
+    <string name="comum">Comum</string>
+    <string name="hediondo">Hediondo/Equivalente</string>
+    <string name="reincidente">Reincidente</string>
+    <string name="violencia">Violência ou grave ameaça</string>
+    <string name="inicio">Data de início da pena</string>
+    <string name="datadefault">10/08/2025</string>
+    <string name="remicao">Remição</string>
+    <string name="trabalho">Dias trabalhados</string>
+    <string name="estudo">Horas de estudo</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultados">Resultados</string>
+    <string name="progressoes">Progressões e benefícios</string>
+    <string name="change_language">Mudar idioma</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="gmail">Gmail</string>
+    <string name="detracao">Tempo de detração (dias)</string>
+    <string name="resultado_morte">Crime com resultado morte</string>
+    <string name="leitura">Livros lidos</string>
+    <string name="livramento_condicional">Livramento condicional</string>
+    <string name="nao_aplicavel">Não aplicável</string>
+    <string name="title_activity_resultados">Resultados do cálculo</string>
+    <string name="nome_completo">Nome completo (Obrigatório)</string>
+    <string name="numero_whatsapp">Número do WhatsApp (Obrigatório)</string>
+    <string name="email">E-mail (Opcional)</string>
+    <string name="numero_processo">Número do processo (Opcional)</string>
+    <string name="salvar_enviar">Salvar e enviar</string>
+    <string name="falar_advogado">Quero falar com um advogado</string>
+    <string name="campo_obrigatorio">Campo obrigatório</string>
+    <string name="voltar">Voltar</string>
+    <string name="pena_error">Informe ao menos 1 dia de pena</string>
+    <string name="data_error">Data inválida. Use o formato DD/MM/AAAA</string>
+    <string name="progressao_regime">Progressão de Regime</string>
+    <string name="termino_pena_label">Término da Pena</string>
+    <string name="whatsapp_error">Não foi possível abrir o WhatsApp. Verifique se o app está instalado.</string>
+    <string name="gmail_subject">Contato via App Calculadora Penal</string>
+    <string name="email_chooser_title">Escolha o app de e-mail</string>
+    <string name="gmail_error">Nenhum app de e-mail encontrado.</string>
+    <string name="selecione_regime_inicial">Selecione o regime inicial</string>
+    <string name="selecione_tipo_crime">Selecione o tipo de crime</string>
+    <string name="resultados_salvos_enviados">Resultados salvos e enviados!</string>
+    <string name="email_invalido">E-mail inválido</string>
+    <string name="processo_invalido">Número de processo inválido</string>
+    <string name="share_title">Compartilhar Resultados</string>
+    <string name="share_header_calculo">Resultados do Cálculo Penal</string>
+    <string name="share_header_dados">Dados do Contato</string>
+    <string name="share_label_nome">Nome</string>
+    <string name="share_label_whatsapp">WhatsApp</string>
+    <string name="share_label_email">E-mail</string>
+    <string name="share_label_processo">Nº do Processo</string>
+    <string name="whatsapp_invalido">Número de WhatsApp inválido</string>
 </resources>

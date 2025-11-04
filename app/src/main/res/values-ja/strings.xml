@@ -1,0 +1,75 @@
+<resources>
+    <string-array name="idiomas_array">
+        <item>Portuguese (Brazil) - pt-BR</item>
+        <item>Arabic - ar</item>
+        <item>German - de</item>
+        <item>English - en</item>
+        <item>Spanish - es</item>
+        <item>French - fr</item>
+        <item>Hindi - hi</item>
+        <item>Japanese - ja</item>
+        <item>Chinese - zh</item>
+    </string-array>
+    <string name="app_name">刑罰計算機 - Cespedes Lourenço</string>
+    <string name="logo">アプリのロゴ</string>
+    <string name="tempopena">刑期合計</string>
+    <string name="anos">年</string>
+    <string name="meses">月</string>
+    <string name="dias">日</string>
+    <string name="valordefault">0</string>
+    <string name="regime">初期制度</string>
+    <string name="fechado">閉鎖</string>
+    <string name="semi">半開放</string>
+    <string name="aberto">開放</string>
+    <string name="tipo">犯罪の種類</string>
+    <string name="comum">一般</string>
+    <string name="hediondo">凶悪 / 同等</string>
+    <string name="reincidente">再犯者</string>
+    <string name="violencia">暴力または重大な脅迫</string>
+    <string name="inicio">刑期開始日</string>
+    <string name="datadefault">10/08/2025</string>
+    <string name="remicao">減刑</string>
+    <string name="trabalho">勤務日数</string>
+    <string name="estudo">学習時間</string>
+    <string name="calcular">計算</string>
+    <string name="resultados">結果</string>
+    <string name="progressoes">進行と利益</string>
+    <string name="change_language">言語を変更</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="gmail">Gmail</string>
+    <string name="detracao">控除日数</string>
+    <string name="resultado_morte">死亡結果のある犯罪</string>
+    <string name="leitura">読んだ本</string>
+    <string name="livramento_condicional">仮釈放</string>
+    <string name="nao_aplicavel">該当なし</string>
+    <string name="title_activity_resultados">計算結果</string>
+    <string name="nome_completo">氏名（必須）</string>
+    <string name="numero_whatsapp">WhatsApp番号（必須）</string>
+    <string name="email">メール（任意）</string>
+    <string name="numero_processo">事件番号（任意）</string>
+    <string name="salvar_enviar">保存して送信</string>
+    <string name="falar_advogado">弁護士に相談したい</string>
+    <string name="campo_obrigatorio">必須項目</string>
+    <string name="voltar">戻る</string>
+    <string name="pena_error">少なくとも1日の刑期を入力してください</string>
+    <string name="data_error">無効な日付です。DD/MM/YYYY形式を使用してください</string>
+    <string name="progressao_regime">制度の進行</string>
+    <string name="termino_pena_label">刑期終了</string>
+    <string name="whatsapp_error">WhatsAppを開くことができません。アプリがインストールされているか確認してください。</string>
+    <string name="gmail_subject">刑罰計算機アプリからの連絡</string>
+    <string name="email_chooser_title">メールアプリを選択</string>
+    <string name="gmail_error">メールアプリが見つかりません。</string>
+    <string name="selecione_regime_inicial">初期制度を選択</string>
+    <string name="selecione_tipo_crime">犯罪の種類を選択</string>
+    <string name="resultados_salvos_enviados">結果が保存され、送信されました！</string>
+    <string name="email_invalido">無効なメール</string>
+    <string name="processo_invalido">無効な事件番号</string>
+    <string name="share_title">Compartilhar Resultados</string>
+    <string name="share_header_calculo">Resultados do Cálculo Penal</string>
+    <string name="share_header_dados">Dados do Contato</string>
+    <string name="share_label_nome">Nome</string>
+    <string name="share_label_whatsapp">WhatsApp</string>
+    <string name="share_label_email">E-mail</string>
+    <string name="share_label_processo">Nº do Processo</string>
+    <string name="whatsapp_invalido">無効なWhatsApp番号</string>
+</resources>

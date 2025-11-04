@@ -1,0 +1,73 @@
+<resources>
+    <string-array name="idiomas_array">
+        <item>Portuguese (Brazil) - pt-BR</item>
+        <item>Arabic - ar</item>
+        <item>German - de</item>
+        <item>English - en</item>
+        <item>Spanish - es</item>
+        <item>French - fr</item>
+        <item>Hindi - hi</item>
+        <item>Japanese - ja</item>
+        <item>Chinese - zh</item>
+    </string-array>
+    <string name="app_name">Calculadora Penal - Cespedes Lourenço</string>
+    <string name="logo">Logo de la aplicación</string>
+    <string name="tempopena">Tiempo total de la pena</string>
+    <string name="anos">Años</string>
+    <string name="meses">Meses</string>
+    <string name="dias">Días</string>
+    <string name="valordefault">0</string>
+    <string name="regime">Régimen inicial</string>
+    <string name="fechado">Cerrado</string>
+    <string name="semi">Semiabierto</string>
+    <string name="aberto">Abierto</string>
+    <string name="tipo">Tipo de delito</string>
+    <string name="comum">Común</string>
+    <string name="hediondo">Grave/Equivalente</string>
+    <string name="reincidente">Reincidente</string>
+    <string name="violencia">Violencia o amenaza grave</string>
+    <string name="inicio">Fecha de inicio de la pena</string>
+    <string name="datadefault">10/08/2025</string>
+    <string name="remicao">Reducción</string>
+    <string name="trabalho">Días trabajados</string>
+    <string name="estudo">Horas de estudio</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultados">Resultados</string>
+    <string name="progressoes">Progresiones y beneficios</string>
+    <string name="change_language">Cambiar idioma</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="gmail">Gmail</string>
+    <string name="detracao">Tiempo de detraimiento (días)</string>
+    <string name="resultado_morte">Delito con resultado de muerte</string>
+    <string name="leitura">Libros leídos</string>
+    <string name="livramento_condicional">Libertad condicional</string>
+    <string name="nao_aplicavel">No aplicable</string>
+    <string name="title_activity_resultados">Resultados del cálculo</string>
+    <string name="nome_completo">Nombre completo (Obligatorio)</string>
+    <string name="numero_whatsapp">Número de WhatsApp (Obligatorio)</string>
+    <string name="email">Correo electrónico (Opcional)</string>
+    <string name="numero_processo">Número de proceso (Opcional)</string>
+    <string name="salvar_enviar">Guardar y enviar</string>
+    <string name="falar_advogado">Quiero hablar con un abogado</string>
+    <string name="campo_obrigatorio">Campo obligatorio</string>
+    <string name="voltar">Atrás</string>
+    <string name="pena_error">Ingrese al menos 1 día de pena</string>
+    <string name="data_error">Fecha inválida. Use DD/MM/AAAA</string>
+    <string name="progressao_regime">Progresión de régimen</string>
+    <string name="termino_pena_label">Fin de la pena</string>
+    <string name="whatsapp_error">No se puede abrir WhatsApp. Verifique si la app está instalada.</string>
+    <string name="gmail_subject">Contacto vía App Calculadora Penal</string>
+    <string name="email_chooser_title">Elegir aplicación de correo</string>
+    <string name="gmail_error">No se encontró ninguna aplicación de correo.</string>
+    <string name="selecione_regime_inicial">Seleccione el régimen inicial</string>
+    <string name="selecione_tipo_crime">Seleccione el tipo de delito</string>
+    <string name="resultados_salvos_enviados">¡Resultados guardados y enviados!</string>
+    <string name="share_title">Compartilhar Resultados</string>
+    <string name="share_header_calculo">Resultados do Cálculo Penal</string>
+    <string name="share_header_dados">Dados do Contato</string>
+    <string name="share_label_nome">Nome</string>
+    <string name="share_label_whatsapp">WhatsApp</string>
+    <string name="share_label_email">E-mail</string>
+    <string name="share_label_processo">Nº do Processo</string>
+    <string name="whatsapp_invalido">Número de WhatsApp no válido</string>
+</resources>

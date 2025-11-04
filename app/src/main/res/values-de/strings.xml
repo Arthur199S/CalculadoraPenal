@@ -1,0 +1,75 @@
+<resources>
+    <string-array name="idiomas_array">
+        <item>Portuguese (Brazil) - pt-BR</item>
+        <item>Arabic - ar</item>
+        <item>German - de</item>
+        <item>English - en</item>
+        <item>Spanish - es</item>
+        <item>French - fr</item>
+        <item>Hindi - hi</item>
+        <item>Japanese - ja</item>
+        <item>Chinese - zh</item>
+    </string-array>
+    <string name="app_name">Strafrechner - Cespedes Lourenço</string>
+    <string name="logo">App-Logo</string>
+    <string name="tempopena">Gesamtstrafdauer</string>
+    <string name="anos">Jahre</string>
+    <string name="meses">Monate</string>
+    <string name="dias">Tage</string>
+    <string name="valordefault">0</string>
+    <string name="regime">Anfangsregime</string>
+    <string name="fechado">Geschlossen</string>
+    <string name="semi">Halboffen</string>
+    <string name="aberto">Offen</string>
+    <string name="tipo">Straftattyp</string>
+    <string name="comum">Gewöhnlich</string>
+    <string name="hediondo">Schwer / Äquivalent</string>
+    <string name="reincidente">Rückfällig</string>
+    <string name="violencia">Gewalt oder ernsthafte Drohung</string>
+    <string name="inicio">Strafbeginn</string>
+    <string name="datadefault">10/08/2025</string>
+    <string name="remicao">Reduktion</string>
+    <string name="trabalho">Gearbeitete Tage</string>
+    <string name="estudo">Studienstunden</string>
+    <string name="calcular">Berechnen</string>
+    <string name="resultados">Ergebnisse</string>
+    <string name="progressoes">Fortschritte und Vorteile</string>
+    <string name="change_language">Sprache ändern</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="gmail">Gmail</string>
+    <string name="detracao">Abzugszeit (Tage)</string>
+    <string name="resultado_morte">Verbrechen mit Todesfolge</string>
+    <string name="leitura">Gelesene Bücher</string>
+    <string name="livramento_condicional">Bewährung</string>
+    <string name="nao_aplicavel">Nicht anwendbar</string>
+    <string name="title_activity_resultados">Berechnungsergebnisse</string>
+    <string name="nome_completo">Vollständiger Name (Pflichtfeld)</string>
+    <string name="numero_whatsapp">WhatsApp-Nummer (Pflichtfeld)</string>
+    <string name="email">E-Mail (Optional)</string>
+    <string name="numero_processo">Prozessnummer (Optional)</string>
+    <string name="salvar_enviar">Speichern und senden</string>
+    <string name="falar_advogado">Ich möchte mit einem Anwalt sprechen</string>
+    <string name="campo_obrigatorio">Pflichtfeld</string>
+    <string name="voltar">Zurück</string>
+    <string name="pena_error">Geben Sie mindestens 1 Tag Strafe ein</string>
+    <string name="data_error">Ungültiges Datum. Verwenden Sie TT/MM/JJJJ</string>
+    <string name="progressao_regime">Regimefortschritt</string>
+    <string name="termino_pena_label">Strafende</string>
+    <string name="whatsapp_error">WhatsApp konnte nicht geöffnet werden. Überprüfen Sie, ob die App installiert ist.</string>
+    <string name="gmail_subject">Kontakt über die Strafrechner-App</string>
+    <string name="email_chooser_title">E-Mail-App auswählen</string>
+    <string name="gmail_error">Keine E-Mail-App gefunden.</string>
+    <string name="selecione_regime_inicial">Wählen Sie das Anfangsregime</string>
+    <string name="selecione_tipo_crime">Wählen Sie die Art des Verbrechens</string>
+    <string name="resultados_salvos_enviados">Ergebnisse gespeichert und gesendet!</string>
+    <string name="email_invalido">Ungültige E-Mail</string>
+    <string name="processo_invalido">Ungültige Prozessnummer</string>
+    <string name="share_title">Compartilhar Resultados</string>
+    <string name="share_header_calculo">Resultados do Cálculo Penal</string>
+    <string name="share_header_dados">Dados do Contato</string>
+    <string name="share_label_nome">Nome</string>
+    <string name="share_label_whatsapp">WhatsApp</string>
+    <string name="share_label_email">E-mail</string>
+    <string name="share_label_processo">Nº do Processo</string>
+    <string name="whatsapp_invalido">Ungültige WhatsApp-Nummer</string>
+</resources>

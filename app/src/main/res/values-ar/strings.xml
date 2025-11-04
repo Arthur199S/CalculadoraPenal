@@ -1,0 +1,73 @@
+<resources>
+    <string-array name="idiomas_array">
+        <item>Portuguese (Brazil) - pt-BR</item>
+        <item>Arabic - ar</item>
+        <item>German - de</item>
+        <item>English - en</item>
+        <item>Spanish - es</item>
+        <item>French - fr</item>
+        <item>Hindi - hi</item>
+        <item>Japanese - ja</item>
+        <item>Chinese - zh</item>
+    </string-array>
+    <string name="app_name">حاسبة العقوبات - Cespedes Lourenço</string>
+    <string name="logo">شعار التطبيق</string>
+    <string name="tempopena">إجمالي مدة العقوبة</string>
+    <string name="anos">سنوات</string>
+    <string name="meses">أشهر</string>
+    <string name="dias">أيام</string>
+    <string name="valordefault">0</string>
+    <string name="regime">النظام الأولي</string>
+    <string name="fechado">مغلق</string>
+    <string name="semi">شبه مفتوح</string>
+    <string name="aberto">مفتوح</string>
+    <string name="tipo">نوع الجريمة</string>
+    <string name="comum">عادية</string>
+    <string name="hediondo">شنيعة / ما يعادلها</string>
+    <string name="reincidente">مكرر الجريمة</string>
+    <string name="violencia">عنف أو تهديد خطير</string>
+    <string name="inicio">تاريخ بدء العقوبة</string>
+    <string name="datadefault">10/08/2025</string>
+    <string name="remicao">التخفيض</string>
+    <string name="trabalho">أيام العمل</string>
+    <string name="estudo">ساعات الدراسة</string>
+    <string name="calcular">احسب</string>
+    <string name="resultados">النتائج</string>
+    <string name="progressoes">التطورات والفوائد</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="whatsapp">واتساب</string>
+    <string name="gmail">جيميل</string>
+    <string name="detracao">مدة الخصم (أيام)</string>
+    <string name="resultado_morte">جريمة أدت إلى الوفاة</string>
+    <string name="leitura">الكتب المقروءة</string>
+    <string name="livramento_condicional">إفراج مشروط</string>
+    <string name="nao_aplicavel">غير قابل للتطبيق</string>
+    <string name="title_activity_resultados">نتائج الحساب</string>
+    <string name="nome_completo">الاسم الكامل (إلزامي)</string>
+    <string name="numero_whatsapp">رقم WhatsApp (إلزامي)</string>
+    <string name="email">البريد الإلكتروني (اختياري)</string>
+    <string name="numero_processo">رقم القضية (اختياري)</string>
+    <string name="salvar_enviar">حفظ وإرسال</string>
+    <string name="falar_advogado">التحدث مع محامٍ</string>
+    <string name="campo_obrigatorio">حقل إلزامي</string>
+    <string name="voltar">رجوع</string>
+    <string name="pena_error">أدخل يومًا واحدًا على الأقل من العقوبة</string>
+    <string name="data_error">تاريخ غير صالح. استخدم صيغة DD/MM/YYYY</string>
+    <string name="progressao_regime">تقدم النظام</string>
+    <string name="termino_pena_label">نهاية العقوبة</string>
+    <string name="whatsapp_error">لا يمكن فتح WhatsApp. تحقق مما إذا كان التطبيق مثبتًا.</string>
+    <string name="gmail_subject">الاتصال عبر تطبيق حاسبة العقوبات</string>
+    <string name="email_chooser_title">اختر تطبيق البريد الإلكتروني</string>
+    <string name="gmail_error">لم يتم العثور على أي تطبيق بريد إلكتروني.</string>
+    <string name="selecione_regime_inicial">اختر النظام الأولي</string>
+    <string name="selecione_tipo_crime">اختر نوع الجريمة</string>
+    <string name="resultados_salvos_enviados">تم حفظ النتائج وإرسالها!</string>
+    <string name="share_title">Compartilhar Resultados</string>
+    <string name="share_header_calculo">Resultados do Cálculo Penal</string>
+    <string name="share_header_dados">Dados do Contato</string>
+    <string name="share_label_nome">Nome</string>
+    <string name="share_label_whatsapp">WhatsApp</string>
+    <string name="share_label_email">E-mail</string>
+    <string name="share_label_processo">Nº do Processo</string>
+    <string name="whatsapp_invalido">رقم WhatsApp غير صالح</string>
+</resources>

@@ -1,0 +1,75 @@
+<resources>
+    <string-array name="idiomas_array">
+        <item>Portuguese (Brazil) - pt-BR</item>
+        <item>Arabic - ar</item>
+        <item>German - de</item>
+        <item>English - en</item>
+        <item>Spanish - es</item>
+        <item>French - fr</item>
+        <item>Hindi - hi</item>
+        <item>Japanese - ja</item>
+        <item>Chinese - zh</item>
+    </string-array>
+    <string name="app_name">आपराधिक दंड कैलकुलेटर - Cespedes Lourenço</string>
+    <string name="logo">ऐप लोगो</string>
+    <string name="tempopena">कुल सजा अवधि</string>
+    <string name="anos">साल</string>
+    <string name="meses">महीने</string>
+    <string name="dias">दिन</string>
+    <string name="valordefault">0</string>
+    <string name="regime">प्रारंभिक प्रणाली</string>
+    <string name="fechado">बंद</string>
+    <string name="semi">आंशिक खुला</string>
+    <string name="aberto">खुला</string>
+    <string name="tipo">अपराध का प्रकार</string>
+    <string name="comum">साधारण</string>
+    <string name="hediondo">भयंकर / समकक्ष</string>
+    <string name="reincidente">पुनरावर्ती</string>
+    <string name="violencia">हिंसा या गंभीर धमकी</string>
+    <string name="inicio">सजा प्रारंभ तिथि</string>
+    <string name="datadefault">10/08/2025</string>
+    <string name="remicao">छूट</string>
+    <string name="trabalho">काम किए गए दिन</string>
+    <string name="estudo">अध्ययन घंटे</string>
+    <string name="calcular">गणना करें</string>
+    <string name="resultados">परिणाम</string>
+    <string name="progressoes">प्रगति और लाभ</string>
+    <string name="change_language">भाषा बदलें</string>
+    <string name="whatsapp">व्हाट्सऐप</string>
+    <string name="gmail">जीमेल</string>
+    <string name="detracao">कटौती अवधि (दिन)</string>
+    <string name="resultado_morte">मृत्यु से जुड़ा अपराध</string>
+    <string name="leitura">पढ़ी गई किताबें</string>
+    <string name="livramento_condicional">परोल</string>
+    <string name="nao_aplicavel">लागू नहीं</string>
+    <string name="title_activity_resultados">गणना परिणाम</string>
+    <string name="nome_completo">पूरा नाम (आवश्यक)</string>
+    <string name="numero_whatsapp">व्हाट्सऐप नंबर (आवश्यक)</string>
+    <string name="email">ईमेल (वैकल्पिक)</string>
+    <string name="numero_processo">प्रक्रिया संख्या (वैकल्पिक)</string>
+    <string name="salvar_enviar">सहेजें और भेजें</string>
+    <string name="falar_advogado">मैं वकील से बात करना चाहता हूँ</string>
+    <string name="campo_obrigatorio">आवश्यक क्षेत्र</string>
+    <string name="voltar">वापस</string>
+    <string name="pena_error">कम से कम 1 दिन की सजा दर्ज करें</string>
+    <string name="data_error">अमान्य तिथि। DD/MM/YYYY प्रारूप का उपयोग करें</string>
+    <string name="progressao_regime">प्रणाली प्रगति</string>
+    <string name="termino_pena_label">सजा समाप्ति</string>
+    <string name="whatsapp_error">व्हाट्सऐप खोलना संभव नहीं। जांचें कि ऐप इंस्टॉल है या नहीं।</string>
+    <string name="gmail_subject">क्रिमिनल पेनल्टी कैलकुलेटर ऐप के माध्यम से संपर्क</string>
+    <string name="email_chooser_title">ईमेल ऐप चुनें</string>
+    <string name="gmail_error">कोई ईमेल ऐप नहीं मिला।</string>
+    <string name="selecione_regime_inicial">प्रारंभिक प्रणाली चुनें</string>
+    <string name="selecione_tipo_crime">अपराध का प्रकार चुनें</string>
+    <string name="resultados_salvos_enviados">परिणाम सहेजे और भेजे गए!</string>
+    <string name="email_invalido">अमान्य ईमेल</string>
+    <string name="processo_invalido">अमान्य प्रक्रिया संख्या</string>
+    <string name="share_title">Compartilhar Resultados</string>
+    <string name="share_header_calculo">Resultados do Cálculo Penal</string>
+    <string name="share_header_dados">Dados do Contato</string>
+    <string name="share_label_nome">Nome</string>
+    <string name="share_label_whatsapp">WhatsApp</string>
+    <string name="share_label_email">E-mail</string>
+    <string name="share_label_processo">Nº do Processo</string>
+    <string name="whatsapp_invalido">अमान्य WhatsApp नंबर</string>
+</resources>

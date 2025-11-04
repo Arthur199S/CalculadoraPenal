@@ -78,6 +78,8 @@ git clone https://github.com/Arthur199S/CalculadoraPenal.git
 
 - Notificações push para alerta de cálculo, quando pronto.
 
+- Faltou a implementação das atividades complementares, mas, como não há uma definição clara sobre como funciona a remição em relação a elas, não foram incluídas.
+
 ---
 
 ## ⚠️ Desafios e Aprendizados

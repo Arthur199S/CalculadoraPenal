@@ -2,11 +2,15 @@
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-FF5722?style=for-the-badge&logo=kotlin) ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android) ![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
 
-Uma aplicação Android desenvolvida em **Kotlin** com interface em **XML** que calcula penas de acordo com parâmetros fornecidos pelo usuário de forma rápida e prática. Ideal para estudantes de direito, advogados e profissionais da área jurídica.
+Uma aplicação Android desenvolvida em **Kotlin** com interface em **XML** que calcula penas de acordo com parâmetros fornecidos pelo usuário de forma rápida e prática. 
+Ideal para estudantes de direito, advogados e profissionais da área jurídica. Foi desenvolvido pelos integrantes da equipe: Arthur, Diego e Luca. Realizado durante
+o curso de Desenvolvimento de Aplicativos com a Linguagem Kotlin, com o professor Aparecido Valdemir de Freitas, no período de setembro a novembro de 2025, no qual
+aprendemos rapidamente a linguagem de computação Kotlin e desenvolviamos para a empresa Cespedes Lourenço um aplicativo de Calculadora Penal, com os requisitos
+exigidos.
 
 ---
 
-## 📱 Demonstração
+## 📱 Telas padrão
 
 <table>
   <tr>
@@ -20,7 +24,50 @@ Uma aplicação Android desenvolvida em **Kotlin** com interface em **XML** que 
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/36aee0db-3f82-4dad-9acb-c73517fe6603" width="200"/><br>
-      Envio
+      Salvar e Enviar
+    </td>
+  </tr>
+</table>
+
+---
+
+## ⚙️ Como usar
+
+1. Primeiro mude para o seu idioma de preferência no quadrado superior direito.
+2. Insira os dados com relação ao tempo total da pena.
+3. Coloque dados sobre a remissão se houver.
+4. Aperte em calcular.
+5. É mostrado na tela as informações com relação a progressão de pena.
+6. Tem a opção de voltar, para caso queira refazer ou tenha digitado algo errado, opção de salvar e enviar, no caso salva a mensagem
+e envia em um aplicativo que o usuario desejar os resultados e os campos obrigatórios, e se quiser os opcionais, ou utilize a opção
+de "quero falar com um advogado" para ser redirecionado ao contato do advogado da Cespedes Lourenço.
+7. Caso deseje entrar em contato direto via e-mail ou via WhatsApp tem as opções com os ícones na tela inicial na inferior direita.
+
+---
+
+## 📱 Telas exemplo
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/6d6d9e47-5e6c-4dec-a999-4b68e36b0af5" width="200"/><br>
+      Tempo Total de Pena
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/15cf7618-7c98-4de8-abd4-feb7176a16c9" width="200"/><br>
+      Remição
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d88f2ee6-b14c-4841-9bae-5c12d220edbe" width="200"/><br>
+      Resultados
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/13538b24-81ae-40a9-bd62-3a4b07ddaabe" width="200"/><br>
+      Salvar e Enviar
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d8e07d3b-4fe6-4156-b57b-87a3fc01397e" width="200"/><br>
+      Botão de G-mail selecionado
     </td>
   </tr>
 </table>

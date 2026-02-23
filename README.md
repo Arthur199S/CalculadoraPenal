@@ -143,7 +143,7 @@ Esses desafios ajudaram a equipe a melhorar a arquitetura do app e otimizar a ex
 
 Este projeto está sem licença, ninguém além do autor tem permissão legal para usar, copiar, modificar ou distribuir o código.
 
-Veja para mais detalhes:  https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository
+Veja para mais detalhes: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository
 
 ---
 
